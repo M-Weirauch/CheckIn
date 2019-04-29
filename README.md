@@ -22,3 +22,11 @@ We want to create a platform that allows employees/freelancers to improve their 
   2. If the cookie does not exist, the user is being displayed a sign up page after that the cookie will be written as persistent
 3. The User is now registered as present and will be displayed on the dashboard
 4. If the user leaves, he will scan a qr code again and will be marked as non present
+
+### Advantages
+
+Independant of any pre existing infrastructure and therefore easily deployable. 
+
+### Disadvantages
+
+Requires a lot of effort from every member/employee every day.
