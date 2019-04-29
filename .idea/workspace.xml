@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5acb8fe5-37e7-4a33-92ed-431d8f0aaae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/checkinlogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.angular-cli.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.angular-cli.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/dashboard/dashboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/dashboard/dashboard.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/dashboard/dashboard.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/login/login.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/login/login.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +12,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/app-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -89,9 +91,9 @@
       <list>
         <option value="$PROJECT_DIR$/frontend/src/index.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -152,6 +154,14 @@
               <item name="CheckIn" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="navbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CheckIn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CheckIn" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -164,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556567158877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556567365957" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -223,17 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556470542266</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added navbar and created app routing.">
+      <created>1556567215964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556567215964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4401000" />
+    <option name="totallyTimeSpent" value="4661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="695" y="0" width="1311" height="1300" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23980816" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23980816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -281,7 +297,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49842602" visible="true" weight="0.11383538" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49842602" weight="0.11383538" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501574" side_tool="true" weight="0.3318739" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49923274" weight="0.32956523" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -341,7 +357,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial push." />
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Added navbar and created app routing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added navbar and created app routing." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/src/polyfills.ts">
@@ -363,19 +380,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.ts">
@@ -407,8 +411,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
