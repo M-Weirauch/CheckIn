@@ -31,4 +31,4 @@ Independant of any pre existing infrastructure and therefore easily deployable.
 
 ### Disadvantages
 
-Requires a lot of effort from every member/employee every day.
+Requires a lot of effort from every member/employee every day (has to scan qr code twice).
