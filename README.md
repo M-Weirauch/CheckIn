@@ -16,3 +16,11 @@ We want to create a platform that allows employees/freelancers to improve their 
  ### Process
 
  ![Process](https://github.com/M-Weirauch/CheckIn/blob/master/readme/process.png)
+ 
+### Advantages
+
+Simple process, login once per device.
+
+### Disadvantages
+
+User Identifiying Token is stored as a cookie on the member device.
