@@ -11,7 +11,7 @@ We want to create a platform that allows employees/freelancers to improve their 
   - Meetup for Lunch with new People
   - Meetup for discussion about topics that are interesting
   
- ## Prototype Build 
+ ## Prototype Build: Option 1
  
  The Login process has been simplified due to insecurity about mac adress issues. Our Core Features will use a very simple login system.
  It contains the following steps:
@@ -32,3 +32,20 @@ Independant of any pre existing infrastructure and therefore easily deployable.
 ### Disadvantages
 
 Requires a lot of effort from every member/employee every day (has to scan qr code twice).
+
+## Prototype Build: Option 2
+
+### Steps
+
+1. Connect to the Wifi
+2. The Router pushes to an api and provides mac address
+3. The API matches MAC-Adresses to user accounts
+4. The User will be automatically put on the dashboard and is now present
+
+### Advantages
+
+The User has to put up effort once, to create an account. After that its all automated
+
+### Disadvantages
+
+Its unclear yet, if the devices disconnect from the wifi in a standby mode and how this will affect our application (users should not vanish from the board only because they're inactive).
