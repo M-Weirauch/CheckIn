@@ -14,3 +14,5 @@ We want to create a platform that allows employees/freelancers to improve their 
  ## Prototype Option 1:
  
  ### Process
+
+ ![Process](https://github.com/M-Weirauch/CheckIn/blob/master/readme/process.png)
