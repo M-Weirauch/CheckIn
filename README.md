@@ -11,7 +11,7 @@ We want to create a platform that allows employees/freelancers to improve their 
   - Meetup for Lunch with new People
   - Meetup for discussion about topics that are interesting
   
- ## Login Process 
+ ## Prototype Build 
  
  The Login process has been simplified due to insecurity about mac adress issues. Our Core Features will use a very simple login system.
  It contains the following steps:
