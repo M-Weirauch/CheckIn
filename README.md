@@ -18,7 +18,7 @@ We want to create a platform that allows employees/freelancers to improve their 
  
 1. Scan a QR Code
 2. A Webpage executes some java script that checks for a cookie
-  2.1 If the cookie exists, it will be matched with a user account in the db
-  2.2 If the cookie does not exist, the user is being displayed a sign up page after that the cookie will be written as persistent
+  1. If the cookie exists, it will be matched with a user account in the db
+  2. If the cookie does not exist, the user is being displayed a sign up page after that the cookie will be written as persistent
 3. The User is now registered as present and will be displayed on the dashboard
 4. If the user leaves, he will scan a qr code again and will be marked as non present
