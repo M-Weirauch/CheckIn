@@ -16,6 +16,8 @@ We want to create a platform that allows employees/freelancers to improve their 
  The Login process has been simplified due to insecurity about mac adress issues. Our Core Features will use a very simple login system.
  It contains the following steps:
  
+ ### Steps
+ 
 1. Scan a QR Code
 2. A Webpage executes some java script that checks for a cookie
   1. If the cookie exists, it will be matched with a user account in the db
