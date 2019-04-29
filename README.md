@@ -6,4 +6,6 @@ We want to create a platform that allows employees/freelancers to improve their 
 
 ## Core Functionality
 
-  - Login
+  - See whos around without having to search the whole workplace
+  - Meetup for coffee breaks with new People
+  - Meetup for Lunch with new People
