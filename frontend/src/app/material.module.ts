@@ -1,15 +1,18 @@
 import {NgModule} from '@angular/core';
 import {
-  MatInputModule
+  MatInputModule,
+  MatFormFieldModule
 } from '@angular/material';
 
 
 @NgModule({
   imports: [
-    MatInputModule
+    MatInputModule,
+    MatFormFieldModule
   ],
   exports: [
-    MatInputModule
+    MatInputModule,
+    MatFormFieldModule
   ],
 })
 

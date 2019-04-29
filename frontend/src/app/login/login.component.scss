@@ -1,0 +1,22 @@
+.body {
+  background-image: url("https://i.pinimg.com/originals/cf/41/3e/cf413e4a7bd6b503ce7828fb6f7b7338.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 92.5vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
+  .login-container {
+    background: rgba(255, 255, 255, 0);
+    width: 55vw;
+    height: 30vh;
+
+    margin-top: -175px;
+
+  }
+}
