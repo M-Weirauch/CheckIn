@@ -1,17 +1,12 @@
 <form name="registerForm" [formGroup]="registerForm" (ngSubmit)="registerForm(registerForm)" novalidate>
 
-    <mat-form-field appearance="outline">
-      <mat-label>Name</mat-label>
-      <input matInput formControlName="name">
-      <mat-icon matSuffix class="secondary-text">name</mat-icon>
-      <mat-error *ngIf="loginForm.get('name').hasError('required')">
-          Name is required
-      </mat-error>
-      <mat-error
-          *ngIf="!loginForm.get('email').hasError('required') &&
-                  loginForm.get('email').hasError('email')">
-          Please enter a valid email address
-      </mat-error>
+  <mat-form-field appearance="outline">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name">
+    <mat-icon matSuffix class="secondary-text">name</mat-icon>
+    <mat-error *ngIf="loginForm.get('name').hasError('required')">
+        Name is required
+    </mat-error>
   </mat-form-field>
   
   <mat-form-field appearance="outline">
