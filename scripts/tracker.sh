@@ -45,7 +45,7 @@
     done
     declare -p newDevices
     # Push the Device List
-    for i in oldDevices do
+    for i in newDevices do
         curl {mac: $i}  https://dummyurl.com/post/device/
     done
 
