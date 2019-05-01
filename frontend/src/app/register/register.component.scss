@@ -1,0 +1,50 @@
+.body {
+    background-image: url("https://i.pinimg.com/originals/cf/41/3e/cf413e4a7bd6b503ce7828fb6f7b7338.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  
+    .register-form {
+      background: rgba(255, 255, 255, 0.5);
+      width: 400px;
+      height: 500px;
+  
+      text-align: center;
+  
+      margin-top: -175px;
+      border-radius: 5px;
+  
+      h1{
+        color: #4b4b4b;
+        margin-bottom: 35px;
+      }
+      .form-field {
+        background: white;
+        width: 90%;
+  
+        margin-bottom: 30px;
+  
+        border-radius: 10px;
+        padding: 5px 20px;
+  
+        box-sizing: border-box;
+      }
+      .button-bar {
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+  
+        margin-left: 50%;
+        margin-right: 5%;
+  
+      }
+    }
+  }
+  
