@@ -1,5 +1,4 @@
 import {sequelize, Sequelize} from "../database"
-import {hash} from "../utils";
 
 /**
  * Represents a Device in the DB
