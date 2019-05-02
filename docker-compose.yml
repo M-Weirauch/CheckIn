@@ -1,0 +1,22 @@
+version: '2' # specify docker-compose version
+
+# Define the services/containers to be run
+services:
+  frontend: # name of the first service
+    build: frontend # specify the directory of the Dockerfile
+    ports:
+      - "4200:4200" # specify port forewarding
+
+  backend: #name of the second service
+    build: backend # specify the directory of the Dockerfile
+    ports:
+      - "3000:3000" #specify ports forewarding
+    links:
+      - database
+
+  database: # name of the third service
+    image: mysql # specify image to build container from
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    ports:
+      - "8080:8080" # specify port forewarding

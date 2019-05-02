@@ -1,19 +1,15 @@
-/**
- * Imports
- */
-var port = process.env.PORT || 8080;
+const express = require('express');
+const bodyParser = require('body-parser');
+const path = require('path');
 
-var app = express();
-
-var Answer = require('./src/models/AnswerModel');
-
-var bodyParser = require('body-parser');
-var path = require('path');
+const port = process.env.PORT || 3000;
+const app = express();
 
 app.use(bodyParser());
 app.use(bodyParser.json({limit:'5mb'}));
 app.use(bodyParser.urlencoded({extended:true}));
 
+/*
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -27,17 +23,15 @@ app.use(function (req, res, next) {
         next();
     }
 });
-
+*/
 
 /**
  * Require Routes into the Application
  */
-var routes = require('./src/routes/Routes');
+const routes = require('./src/routes/api');
 app.use('/api', routes);
 
 /**
  * Listen to port
  */
-app.listen(port, function () {
-    console.log('ADP-Backend listening on port 8080!');
-});
+app.listen(port, () => console.log(`API running on localhost:${port}`));

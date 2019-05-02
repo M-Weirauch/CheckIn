@@ -1,5 +1,5 @@
 const express = require("express");
-const app = express();
+const router = express.Router();
 
 const userController = require('../controllers/UserController');
 const deviceController = require('../controllers/DeviceController');
@@ -7,5 +7,9 @@ const deviceController = require('../controllers/DeviceController');
 const userUrl = '/user';
 const deviceUrl = '/device';
 
-// Get User by given userId
-app.get(userUrl, userController.getUserById);
+// GET api listing
+router.get('/', (req, res) => {
+    res.send('api works');
+});
+
+module.exports = router;
