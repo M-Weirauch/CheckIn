@@ -6,6 +6,11 @@ import {hash} from "../utils";
  * @type {Model}
  */
 const User = sequelize.define('user', {
+    userId: {
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
+        primaryKey: true
+    },
     firstName: {
         type: Sequelize.STRING,
         allowNull: false

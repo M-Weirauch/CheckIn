@@ -5,6 +5,11 @@ import {sequelize, Sequelize} from "../database"
  * @type {Model}
  */
 const Device = sequelize.define('device', {
+    deviceid: {
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
+        primaryKey: true
+    },
     name: {
         type: Sequelize.STRING,
         allowNull: false
