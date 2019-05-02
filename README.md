@@ -19,13 +19,13 @@ We want to create a platform that allows employees/freelancers to improve their 
  
 ### Description
 
-This System allows a simple management. One QR Code at the entrance of the building, and one at the exit. If scanned, Data will be pushed to an API
-and will then be handled according to the image above.
+This system relies on routers to push to an api in order to get the currently logged on devices. With this method, any effort from the users can be avoided,
+they will still have to login to use the aplications features though.
 
 ### Advantages
 
-Simple process, login once per device.
+Easy Process, just connect to the wifi and you're in!
 
 ### Disadvantages
 
-User Identifiying Token is stored as a cookie on the member device.
+Hard first time data registering. All MAC Adresses have to be connected to a member.
