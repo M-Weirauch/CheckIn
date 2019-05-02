@@ -1,3 +1,7 @@
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+# This Script is deprecated
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 # ********************************************
 #           Name: MAC Adress Tracking        *
 #           Author: Moritz Weirauch          *
