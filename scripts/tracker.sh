@@ -26,15 +26,18 @@
 
 	# Store Current List into File 
 	
-		currList = `wl -i eth1 assoclist`
-		currList < $cdir
+		wl assoclist > $cdir
 
 # ******************
 # Variables
 
-	file=/c/Users/Moritz/Documents/GitHub/CheckIn/scripts/assoc.txt
-	mapfile -t oldListArray < $adir
-	mapfile -t newListArray < $cdir
+	#mapfile -t oldListArray < $adir
+	#mapfile -t newListArray < $cdir
+	IFS=$'\n' read -r -a oldListArray < $adir
+	declare -p oldListArray
+	IFS=$'\n' read -r -a newListArray < $cdir
+	declare -p newListArray
+
 
 # ******************
 # Track lost devices
@@ -80,4 +83,4 @@
 # *********************
 # Refresh "Old" assoc List
 
-    currList > $adir
+    wl assoclist > $adir
