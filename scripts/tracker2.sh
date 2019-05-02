@@ -5,6 +5,11 @@
 #           Version: 0.2                     *
 # ********************************************
 
+# ********************************************
+# The Server processes every xml recieved by the AP
+# Individually, which makes the handling way easier
+# ********************************************
+
 # ******************
 # Preparations
 
