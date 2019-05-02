@@ -8,7 +8,7 @@
 
 	# Store Current List into File 
 	
-		currList = `wl -i <interface> asoclist`
+		currList = `wl -i eth1 assoclist`
 		currList < /c/Users/Moritz/Documents/GitHub/CheckIn/scripts/curassoc.txt
 
 # ******************
@@ -36,7 +36,7 @@
 	# Push all the Old ones to the API
 	
 	for i in "${oldDevices[@]}"; do
-		echo $i
+		echo "Old Device:" $i
 	done
 
 # ********************
@@ -54,9 +54,9 @@
 	
 	# Push all the new Ones to the APi
 	
-	#for i in "${newDevices[@]}"; do
-	#	echo $i
-	#done
+	for i in "${newDevices[@]}"; do
+		echo "New Device:" $i
+	done
 
 
 # *********************
