@@ -4,7 +4,14 @@
         <h1>Register an Account</h1>
     
         <mat-form-field class="form-field">
-            <input matInput placeholder="Fullname" type="text" formControlName="name">
+            <input matInput placeholder="Surname" type="text" formControlName="surname">
+            <mat-error *ngIf="registerForm.get('surname').hasError('required')">
+                Name is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="form-field">
+            <input matInput placeholder="Name" type="text" formControlName="name">
             <mat-error *ngIf="registerForm.get('name').hasError('required')">
                 Name is <strong>required</strong>
             </mat-error>
