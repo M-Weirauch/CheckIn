@@ -9,7 +9,6 @@ app.use(bodyParser());
 app.use(bodyParser.json({limit:'5mb'}));
 app.use(bodyParser.urlencoded({extended:true}));
 
-/*
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -23,7 +22,7 @@ app.use(function (req, res, next) {
         next();
     }
 });
-*/
+
 
 /**
  * Require Routes into the Application

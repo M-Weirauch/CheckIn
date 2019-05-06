@@ -12,4 +12,13 @@ router.get('/', (req, res) => {
     res.send('api works');
 });
 
+// Save new macs
+router.post('/post/devices', (req, res) => {
+    deviceController.saveMacs(req, res);
+});
+// Get macs
+router.get('/get/devices', (req, res) => {
+    deviceController.getMacs(req, res);
+});
+
 module.exports = router;
