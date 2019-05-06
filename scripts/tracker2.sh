@@ -38,3 +38,4 @@
 
     curl -X POST -d "data=@$cdir" https://dummyurl.com/api/post/devices/
 
+
