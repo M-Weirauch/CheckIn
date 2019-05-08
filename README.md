@@ -1,5 +1,11 @@
 # CheckIn
 
+### Information
+
+#### Pitch Deck
+
+[Can be found here](https://docs.google.com/presentation/d/1TXz3qQRYDp-pRHR4LkR3bZO24BJoWBbbczvn71HOWqM/edit#slide=id.g56b9b39c7c_0_162)
+
 ## Definition
 
 We want to create a platform that allows employees/freelancers to improve their collaboration experience.
