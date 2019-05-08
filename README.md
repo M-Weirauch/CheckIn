@@ -31,10 +31,11 @@ connects to the wifi.
 
 ### Advantages
 
-Easy Process, just connect to the wifi and you're in!
+Easy Process, just connect to the wifi and you're in! 
 
 ### Disadvantages
 
-Hard first time data registering. All MAC Adresses have to be connected to a member.
+Hard first time data registering. All MAC Adresses have to be connected to a member. There are some complications with Iphones as they randomize their 
+MAC Adress when connecting to a network in order to prevent user tracking. Members with an Iphone would be tracked via their Notebook. 
 
 ### Test
