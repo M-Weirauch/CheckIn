@@ -15,6 +15,8 @@ import { MatButtonModule, MatInputModule, MatFormFieldModule, MatIconModule, Mat
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ProfileComponent } from './profile/profile.component';
 
+import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,12 +27,17 @@ import { ProfileComponent } from './profile/profile.component';
     ProfileComponent
   ],
   imports: [
+
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+
     // MaterialModule,
-    FormsModule,
-    ReactiveFormsModule,
+      FormsModule,
+      ReactiveFormsModule,
+
+    // Loading Bar
+      LoadingBarRouterModule,
 
     // Material
       MatButtonModule,
