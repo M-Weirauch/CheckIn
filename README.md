@@ -2,6 +2,8 @@
 
 ### Information
 
+Thsi is an Open Source Project, everyone who wishes is welcome to contribute. The following readme introduces you to our ideas and processes to reach them.
+
 #### Pitch Deck
 
 [Can be found here](https://docs.google.com/presentation/d/1TXz3qQRYDp-pRHR4LkR3bZO24BJoWBbbczvn71HOWqM/edit#slide=id.g56b9b39c7c_0_162)
