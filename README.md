@@ -29,3 +29,5 @@ Easy Process, just connect to the wifi and you're in!
 ### Disadvantages
 
 Hard first time data registering. All MAC Adresses have to be connected to a member.
+
+### Test
