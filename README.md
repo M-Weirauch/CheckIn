@@ -26,7 +26,8 @@ We want to create a platform that allows employees/freelancers to improve their 
 ### Description
 
 This system relies on routers to push to an api in order to get the currently logged on devices. With this method, any effort from the users can be avoided,
-they will still have to login to use the aplications features though.
+they will still have to login to use the aplications features, however they will be automatically marked as present as soon as one of their associated devices
+connects to the wifi.
 
 ### Advantages
 
