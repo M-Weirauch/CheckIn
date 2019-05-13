@@ -29,10 +29,15 @@
 		# Create file to store "new" list
 		touch $rdir/curassoc.txt
 		cdir="${rdir}/curassoc.txt"
+		ddir="${rdir}/curassoc.txt"
 
 	# Store Current List into File 
 	
 		wl assoclist > $cdir
+
+	# Remove specific word from file
+
+		sed -e 's/\assoclist//g' $cdir > $ddir
 
 # Push the List to API Endpoint
 
