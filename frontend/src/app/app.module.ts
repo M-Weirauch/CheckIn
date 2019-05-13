@@ -14,11 +14,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from './material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { MatButtonModule, MatInputModule, MatFormFieldModule, MatIconModule, MatCheckboxModule, MatTableModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+import { MatButtonModule, MatInputModule, MatFormFieldModule, MatIconModule, MatCheckboxModule, MatTableModule, MatCardModule } from '@angular/material';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ProfileComponent } from './profile/profile.component';
 import {environment} from '../environments/environment';
+
+import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 
 @NgModule({
   declarations: [
@@ -36,9 +40,16 @@ import {environment} from '../environments/environment';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+
+    // FxLayoutModule
+      FlexLayoutModule,
+
     // MaterialModule,
-    FormsModule,
-    ReactiveFormsModule,
+      FormsModule,
+      ReactiveFormsModule,
+
+    // Loading Bar
+      LoadingBarRouterModule,
 
     // Material
       MatButtonModule,
@@ -47,6 +58,7 @@ import {environment} from '../environments/environment';
       MatCheckboxModule,
       MatInputModule,
       MatTableModule,
+      MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

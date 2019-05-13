@@ -16,6 +16,7 @@ router.get('/', (req, res) => {
 router.post('/post/devices', (req, res) => {
     deviceController.saveMacs(req, res);
 });
+
 // Get macs
 router.get('/get/devices', (req, res) => {
     deviceController.getMacs(req, res);
