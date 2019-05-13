@@ -36,6 +36,6 @@
 
 # Push the List to API Endpoint
 
-    curl -X POST -d "data=@$cdir" https://dummyurl.com/api/post/devices/
+    curl -X POST -d "data=@$cdir" https://us-central1-check-in-1555a.cloudfunctions.net/addMacFile
 
 
