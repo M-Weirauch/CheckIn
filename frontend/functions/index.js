@@ -9,3 +9,10 @@ exports.addMac = functions.https.onRequest(async (req, res) => {
   await admin.database().ref('/macs').push({mac: newMac});
   res.send("Mac saved");
 });
+
+
+exports.addMacFile = functions.https.onRequest(async (req, res) => {
+  const newMacFile = req.body;
+  await admin.database().ref('/mac-files').push({macFile: newMacFile});
+  res.send("Mac File saved");
+});

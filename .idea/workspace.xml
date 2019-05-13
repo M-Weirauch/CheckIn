@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5acb8fe5-37e7-4a33-92ed-431d8f0aaae4" name="Default Changelist" comment="Frontend dockerfile changed to work in production environment.">
-      <change afterPath="$PROJECT_DIR$/frontend/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.firebaserc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/database.rules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/firebase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/functions/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/functions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/functions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/functions/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/functions/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/firebase.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/firebase.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/storage.rules" afterDir="false" />
+    <list default="true" id="5acb8fe5-37e7-4a33-92ed-431d8f0aaae4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/register/register.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/register/register.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.firebaserc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/functions/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +17,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/functions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="384">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -72,7 +52,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="firebase-testing" />
       </map>
     </option>
     <option name="RESET_MODE" value="MIXED" />
@@ -153,27 +133,6 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CheckIn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CheckIn" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CheckIn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CheckIn" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CheckIn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CheckIn" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -201,12 +160,12 @@
     <property name="ts.external.directory.path" value="C:\Users\mikel\Documents\Work\Shanghai\CheckIn\frontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mikel\Documents\Work\Shanghai\CheckIn\frontend\src\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mikel\Documents\Work\Shanghai\CheckIn\backend" />
       <recent name="C:\Users\mikel\Documents\Work\Shanghai\CheckIn\frontend\src\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mikel\Documents\Work\Shanghai\CheckIn\frontend\src\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557128747668</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Firebase function now works under the url: https://us-central1-check-in-1555a.cloudfunctions.net/addMac?mac=test">
+      <created>1557728463738</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557728463739</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55004000" />
+    <option name="totallyTimeSpent" value="56592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="993" y="0" width="1013" height="1300" extended-state="0" />
@@ -455,7 +421,8 @@
     <MESSAGE value="Added backend structure." />
     <MESSAGE value="Docker implemented and configured." />
     <MESSAGE value="Frontend dockerfile changed to work in production environment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend dockerfile changed to work in production environment." />
+    <MESSAGE value="Firebase function now works under the url: https://us-central1-check-in-1555a.cloudfunctions.net/addMac?mac=test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firebase function now works under the url: https://us-central1-check-in-1555a.cloudfunctions.net/addMac?mac=test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/src/main.ts">
@@ -803,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/functions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="384">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
