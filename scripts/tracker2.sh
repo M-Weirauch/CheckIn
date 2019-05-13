@@ -37,10 +37,14 @@
 
 	# Remove specific word from file
 
-		sed -e 's/\assoclist//g' $cdir > $ddir
+		# sed -e 's/\assoclist//g' $cdir > $ddir
+
+	# Read File Input
+
+		value=`cat $cdir`
 
 # Push the List to API Endpoint
 
-    curl -X POST -d "data=@$cdir" https://us-central1-check-in-1555a.cloudfunctions.net/addMacFile?apName=testap
+    curl -X POST -d "data=$value" https://us-central1-check-in-1555a.cloudfunctions.net/addMacFile?apName=testap
 
 
