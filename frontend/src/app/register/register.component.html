@@ -33,7 +33,7 @@
     
         <div class="button-bar">
             <a routerLink="/login"><button mat-raised-button >Login</button></a>
-            <button mat-raised-button color="accent">Register</button>
+            <button mat-raised-button color="accent" (click)="tryRegister(registerForm.value)" >Register</button>
         </div>
 
     </form>
