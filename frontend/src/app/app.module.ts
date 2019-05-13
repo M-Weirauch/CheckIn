@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
@@ -14,6 +18,7 @@ import { MatButtonModule, MatInputModule, MatFormFieldModule, MatIconModule, Mat
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ProfileComponent } from './profile/profile.component';
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -25,6 +30,9 @@ import { ProfileComponent } from './profile/profile.component';
     ProfileComponent
   ],
   imports: [
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule, // imports firebase/firestore, only needed for database features
+    AngularFireAuthModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
