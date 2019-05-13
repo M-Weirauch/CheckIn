@@ -10,6 +10,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from './material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { MatButtonModule, MatInputModule, MatFormFieldModule, MatIconModule, MatCheckboxModule, MatTableModule, MatCardModule } from '@angular/material';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -31,6 +33,9 @@ import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+
+    // FxLayoutModule
+      FlexLayoutModule,
 
     // MaterialModule,
       FormsModule,

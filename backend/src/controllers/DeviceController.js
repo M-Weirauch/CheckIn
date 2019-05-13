@@ -1,11 +1,14 @@
 const express = require('express');
+var db = require('../config.js');
 
 // Save the macs
 exports.saveMacs = (req, res) => {
     console.log("Gotcha");
 };
 
-// Save the macs
+// Get the macs
 exports.getMacs = (req, res) => {
-    res.send("Totally")
+    var sql = "";
+    
+    res.send("Totally");
 };

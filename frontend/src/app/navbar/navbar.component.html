@@ -1,4 +1,6 @@
-<div class="navbar">
+<!-- After Login -->
+
+<div *ngIf="isLoggedIn" class="navbar">
   <a href="http://mobile-checkin.strikingly.com/"><img alt="CheckIn Logo" src="../../assets/images/checkin_logo.png"></a>
   <div class="links">
     <a routerLink="/dashboard">Dashboard</a>
