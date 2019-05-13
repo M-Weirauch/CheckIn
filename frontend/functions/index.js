@@ -12,7 +12,8 @@ exports.addMac = functions.https.onRequest(async (req, res) => {
 
 
 exports.addMacFile = functions.https.onRequest(async (req, res) => {
+  const apName = req.query.apName;
   const newMacFile = req.body;
-  await admin.database().ref('/mac-files').push({macFile: newMacFile});
+  await admin.database().ref('/mac-files').push({apName: apName, macFile: newMacFile});
   res.send("Mac File saved");
 });
