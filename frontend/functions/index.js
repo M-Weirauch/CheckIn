@@ -3,6 +3,12 @@ const admin = require('firebase-admin');
 
 admin.initializeApp();
 
+exports.createProfile = functions.auth.user()
+  .onCreate( (userRecord, context) => {
+    return admin.database().ref(`/userProfile/${userRecord.data.uid}`).set({
+      email: userRecord.data.email
+    });
+  });
 
 exports.addMac = functions.https.onRequest(async (req, res) => {
   const newMac = req.query.mac;
@@ -14,6 +20,13 @@ exports.addMac = functions.https.onRequest(async (req, res) => {
 exports.addMacFile = functions.https.onRequest(async (req, res) => {
   const apName = req.query.apName;
   const newMacFile = req.body;
-  await admin.database().ref('/mac-files').push({apName: apName, macFile: newMacFile});
+
+  let filteredMacFile = newMacFile.toString().replace(/assoclist /g,'');
+  console.log(filteredMacFile[0].toString());
+
+  //filteredMacFile['apName'] = apName;
+
+  await admin.database().ref('/mac-files').push({test: filteredMacFile.toString()});
+
   res.send("Mac File saved");
 });
