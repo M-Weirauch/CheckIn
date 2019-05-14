@@ -6,7 +6,9 @@ admin.initializeApp();
 exports.createProfile = functions.auth.user()
   .onCreate( (userRecord, context) => {
     return admin.database().ref(`/userProfile/${userRecord.data.uid}`).set({
-      email: userRecord.data.email
+      email: userRecord.data.email,
+      firstName: userRecord.data.firstName,
+      lastName: userRecord.data.lastName,
     });
   });
 
