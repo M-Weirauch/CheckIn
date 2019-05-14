@@ -9,6 +9,7 @@ exports.createProfile = functions.auth.user()
       email: userRecord.data.email,
       firstName: userRecord.data.firstName,
       lastName: userRecord.data.lastName,
+      password: userRecord.data.password,
     });
   });
 
